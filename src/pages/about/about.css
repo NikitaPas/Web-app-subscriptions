@@ -1,0 +1,14 @@
+.container{
+    max-width: 1290px;
+    width: 100%;
+    margin-right: 0;
+}
+
+.about_title {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.about_title h2{
+    font-size: 36px;
+}

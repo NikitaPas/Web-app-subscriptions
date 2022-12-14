@@ -1,0 +1,33 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1440px;
+}
+.containerNav{
+    width: 150px;
+    float: left;
+    height: 90vh;
+    background-color: #759cd8;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul:nth-child(1){
+}
+
+li a {
+    font-size: 16px;
+    display: block;
+    color:  #cfdaec;
+    padding: 15px 15px 15px 15px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+li a:hover {
+    background-color: #094d74;
+    color: white;
+}

@@ -1,0 +1,53 @@
+*{
+    font-family: 'Montserrat';
+}
+.container{
+    max-width: 1290px;
+    width: 100%;
+    margin-right: 0;
+}
+
+.container_flex{
+    margin-left: 50px;
+    display: flex;
+    align-items:baseline;
+    margin-top: 50px;
+    float: left;
+    justify-content: space-between;
+}
+
+
+.active_subs{
+    width: 800px;
+}
+
+.active_subs h2{
+    font-size: 20px;
+}
+
+.about_profile{
+    margin-right: 100px;
+}
+.about_profile h2{
+    font-size: 36px;
+}
+.about_profile p{
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+table{
+    width: 500px;
+    text-align: center;
+    margin: 0;
+    margin-top: 25px;
+}
+
+.firstBl{
+
+}
+
+td{
+    padding-bottom: 25px;
+}
+
