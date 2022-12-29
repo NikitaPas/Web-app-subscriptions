@@ -31,3 +31,12 @@ li a:hover {
     background-color: #094d74;
     color: white;
 }
+
+@media(max-width: 380px){
+    .containerNav{
+        width: 75px;
+    }
+    li a{
+        font-size: 0px;
+    }
+}

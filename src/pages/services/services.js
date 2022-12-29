@@ -24,6 +24,7 @@ const Services = () => {
                 <TextField 
                 id="standard-basic" 
                 label="Название" 
+                className='text_filter'
                 variant="standard" />
             </div>
             <table className='table'>
@@ -41,22 +42,22 @@ const Services = () => {
                             <td>Netflix</td>
                             <td>Кино</td>
                             <td>50$</td>
-                            <td><Button variant="contained">Добавить</Button></td>
+                            <td><Button className='button_add' variant="contained">Добавить</Button></td>
                         </tr>
-                        <tr>
-                            {/* Функция на заполнение таблицы */}
+                        {/* <tr>
+                            
                             <td>Spotify</td>
                             <td>Музыка</td>
                             <td>5$</td>
-                            <td><Button variant="contained">Добавить</Button></td>
+                            <td><Button className='button_add' variant="contained">Добавить</Button></td>
                         </tr>
                         <tr>
-                            {/* Функция на заполнение таблицы */}
+                            
                             <td>Spotify</td>
                             <td>Музыка</td>
                             <td>5$</td>
-                            <td><Button variant="contained">Добавить</Button></td>
-                        </tr>
+                            <td><Button className='button_add' variant="contained">Добавить</Button></td>
+                        </tr> */}
                     </tbody>
                 </table>
         </div>

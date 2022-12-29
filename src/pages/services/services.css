@@ -10,7 +10,9 @@
 	margin-bottom: 50px;
 }
 .table {
-	width: 100%;
+	padding-top: 50px;
+	margin: 0 auto;
+	width: 80%;
 	border: none;
 	margin-bottom: 20px;
 }
@@ -45,3 +47,42 @@ button:hover{
     background-color: #094d74;
 }
 
+
+@media (max-width: 769px) and (min-width: 400px){
+	.services{
+		margin-top: 50px;
+		margin-left: 180px;
+	}
+	
+}
+
+@media (max-width:400px) {
+	.services{
+		margin-top: 50px;
+		margin-left: 90px;
+	}
+	.table{
+		width: 10%;
+		font-size: 10px;
+	}
+	.table thead th {
+		padding: 10px;
+		font-weight: 500;
+		font-size: 10px;
+		line-height: 20px;
+		text-align: left;
+		color: #444441;
+		border-top: 2px solid #716561;
+		border-bottom: 2px solid #716561;
+	}
+	.table tbody td {
+		padding: 10px;
+		font-size: 10px;
+		line-height: 20px;
+		color: #444441;
+		border-top: 1px solid #716561;
+	}
+	.button_add{
+		width: 50px;
+	}
+}

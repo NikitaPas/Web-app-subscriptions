@@ -51,3 +51,42 @@ td{
     padding-bottom: 25px;
 }
 
+@media (max-width: 769px) and (min-width: 401px){
+    .about_profile{
+        margin: 0;
+        
+    }
+    .active_subs{
+        margin-top: 50px;
+        width: 400px;
+    }
+    .container_flex{
+        display:block;
+    }
+}
+
+@media (max-width:400px){
+    .container_flex{
+        display:block;
+    }
+    table{
+        width: 240px;
+        text-align: center;
+        margin: 0;
+        margin-top: 25px;
+    }
+    .active_subs{
+        margin-top: 50px;
+        width: 200px;
+        margin-left: 0;
+    }
+    .about_profile h2{
+        font-size: 15px;
+    }
+    .about_profile p{
+        font-size: 13px;
+    }
+    .active_subs h2{
+        font-size: 15px;
+    }
+}

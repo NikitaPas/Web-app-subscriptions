@@ -12,3 +12,97 @@
 .about_title h2{
     font-size: 36px;
 }
+
+.about_text{
+    margin: 0 auto;
+}
+
+.title_main{
+    margin-top: 50px;
+    margin-left: 25%;
+    font-size: 20px;
+}
+
+a .button_in1{
+    margin-top: 20px;
+    margin-left: 40%;
+}
+
+a .button_in2{
+    margin-top: 20px;
+    margin-left: 1%;
+}
+
+@media (max-width: 769px) and (min-width: 400px){
+    .container{
+        max-width: 100vw;
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    .about_title {
+        margin-top: 50px;
+        margin-left: 200px;
+    }
+    
+    .about_title h2{
+        font-size: 36px;
+    }
+    
+    .about_text{
+        margin: 0 auto;
+    }
+    
+    .title_main{
+        margin-top: 50px;
+        margin-left: 25%;
+        font-size: 20px;
+    }
+    
+    a .button_in1{
+        margin-top: 20px;
+        margin-left: 25%;
+    }
+    
+    a .button_in2{
+        margin-top: 20px;
+        margin-left: 1%;
+    }
+}
+
+@media(max-width: 380px){
+    .container{
+        max-width: 100vw;
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    .about_title {
+        margin-top: 50px;
+        margin-left: 150px;
+    }
+    
+    .about_title h2{
+        font-size: 36px;
+    }
+    
+    .about_text{
+        margin: 0 auto;
+    }
+    
+    .title_main{
+        margin-top: 50px;
+        margin-left: 25%;
+        font-size: 20px;
+    }
+    
+    a .button_in1{
+        margin-top: 20px;
+        margin-left: 10%;
+    }
+    
+    a .button_in2{
+        margin-top: 20px;
+        margin-left: 1%;
+    }
+}
